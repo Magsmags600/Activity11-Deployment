@@ -9,6 +9,9 @@ interface IGame extends Document {
   isComplete: boolean;
   isWinner: boolean;
 }
+
+
+
 // Define the schema for the Game document
 const gameSchema = new Schema<IGame>(
   {
