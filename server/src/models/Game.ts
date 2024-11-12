@@ -11,6 +11,7 @@ interface IGame extends Document {
 }
 
 
+
 // Define the schema for the Game document
 const gameSchema = new Schema<IGame>(
   {
